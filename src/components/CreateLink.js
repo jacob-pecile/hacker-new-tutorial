@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
 import { FEED_QUERY } from './LinkList'
+import { LINKS_PER_PAGE } from '../constants'
 
 class CreateLink extends Component {
   state = {
